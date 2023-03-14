@@ -1,0 +1,96 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.contenedor{
+width: 400px;
+height: 300px;
+background-color:black;
+color: green;
+padding: 20px;
+border: 10px;
+box-sizing: border-box;
+overflow: scroll;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.div2{
+    background-color: brown;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: 10px;
+
+
+}
+
+.div3{
+width: 100%;
+height: 400px;
+background-color: cadetblue;
+position: sticky;
+
+}
+
+.logo{
+    display:inline-block;
+
+}
+
+.navegacion{
+    width: 300px;
+    height: 50px;
+    display:inline-block;
+    position: fixed;
+    margin-top: 10px;
+    right: 10px;
+   
+
+
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+
+    text-align: center;
+}
+
+.descarga{
+    position: relative;
+
+}
+
+.hijo{
+
+    position: absolute;
+    right: 700px;
+    bottom: 200px;
+}
+
+.formulario{
+    padding: 40px;
+    width: 400px;
+    height: 500px;
+    background-color: aqua;
+    position: absolute;
+    top: 350px;
+    right: 10px;
+
+}
+
+.principal img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+ 
+}
+
+.principal{
+    position: relative;
+}
+

@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interfaz 3</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="contenedor">
+        <div class="box logo" >
+            <img src="img/logo.jpg" alt="logo" width="260px" height="100px">
+
+        </div>
+        <div class="box menu">
+            <nav>
+                <ul>
+                    <li><a href="">ADMIN</a></li>
+                    <li><a href="">RECORDS</a></li>
+                    <li><a href="">INTERACT</a></li>
+                    <li><a href="">CALENDAR</a> </li>
+                    <li><a href="">PROVIDERS</a></li>
+                    <li><a href="">SETTINGS</a> </li>
+
+                </ul>
+            </nav>
+            
+            <nav>
+
+        </div>
+        <div class="box usuario">
+            <img class="user" src="img/usuario.png" alt="logo" width="50" height="50">
+            <a class="nameuse" href="">Usuario</a>
+
+        </div>
+    </header>
+    <aside>
+        <nav class="menuIz">
+            <ul>
+                <li>
+                    <a href="">                     
+                   <img class="icon" src="img/grupo.png" alt="grupo" width="30px" height="30px">
+
+                        CLIENTES
+
+                    </a>
+                </li>
+                <li>
+                    
+                    <a href="">
+                        <img src="img/corazon.png" alt="corazon" width="30px" height="30px">
+                        MONITORING</a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="img/report.png" alt="reporte" width="30px" height="30px">
+                        REPORTING</a>
+                    </li>
+                <li>
+                    <a href="">
+                        <img src="img/map.png" alt="mapa" width="30px" height="30px">
+                        LOCATIONS</a>
+                 </li>
+                <li>
+                    <a href="">
+                        <img src="img/log.png" alt="logs" width="30px" height="30px">
+                        LOGS</a>
+                </li>
+            </ul>
+        </nav>
+
+    </aside>
+    
+    <main>
+        <div class="menu2">
+            <nav class="menum">
+                <ul>
+                    <li>
+                        <a href="">Alerts</a>
+                    </li>
+                    <li><a href="">Tasks</a></li>
+                    <li><a href="">Risk</a></li>
+                    <li><a href="">Authorizations</a> </li>
+                    <li><a href="">Vitals</a></li>
+                </ul>
+
+            </nav>
+            <nav class="menum menum-2">
+                <ul>
+                    <li><a href="">Resolved</a></li>
+                    <li><a href="">Unresolved</a></li>
+
+                </ul>
+            </nav>
+        </div>
+
+        <div class="padre">
+            <div class="arriba">
+                <form class="formulario" action="registro">
+                    <label for="nombre">First name</label>
+                    <label for="snombre">Last name</label>
+                    <label for="fechai">Start date</label>
+                    <label for="fechae">End date</label>
+                    <br>
+                    <input type="text" name="nombre" id="nombre">
+                    <input type="text" name="snombre" id="snombre">
+                    <input type="date" name="fechai" id="fechai">
+                    <input type="date" name="fechae" id="fechae">
+                    <br>
+                    <br>
+                    <label for="text">Data range</label>
+                    <br>
+                    <label class="grupo" for="today">Today</label>
+                    <input class="grupo" type="radio" name="opciones" id="today" value="hoy" >
+                    <label class="grupo" for="siete">7 days</label>
+                    <input class="grupo" type="radio" name="opciones" id="siete" value="siete" >
+                    <label class="grupo" for="treinta">30 days</label>
+                    <input class="grupo" type="radio" name="opciones" id="treinta" value="treinta" >
+                    <label class="grupo" for="todo">All</label>
+                    <input class="grupo" type="radio" name="opciones" id="todo" value="todo" >
+                    
+                    <label for="tipo">Source</label>
+                    <select name="tipo" id="" required>
+                      <option  value="opcion1">Select source</option>
+                      <option value="opcion2">Select source</option >
+                      <option value selected= "opcion3">Select source</option>
+                      <option value="opcion4">Select source</option select>
+                    </select>
+
+                    <button class="busqueda" type="button">Search</button>
+                    <button class="cancelar" type="button">X</button>
+
+
+
+
+                </form>
+
+
+            </div>
+            <div class="abajo">
+                <table class="tabla">
+                    <thead>
+                        <tr>
+                            <th>Date/Time of alert</th>
+                            <th>Client name</th>
+                            <th>Sourse</th>
+                            <th>Value</th>
+                            <th>Alert</th>
+                            <th>Alert type</th>
+                        </tr>
+
+                    </thead>
+                    <tr>
+                        <td>08/04/2016</td>
+                        <td>Doe john</td>
+                        <td>Clinical pulse</td>
+                        <td>N/A</td>
+                        <td>Over 2 days</td>
+                        <td>Time-based</td>
+                    </tr>
+                    <tr>
+                        <td>08/04/2016</td>
+                        <td>Doe john</td>
+                        <td>Clinical pulse</td>
+                        <td>N/A</td>
+                        <td>Over 2 days</td>
+                        <td>Time-based</td>
+                    </tr>
+                    <tr>
+                        <td>08/04/2016</td>
+                        <td>Doe john</td>
+                        <td>Clinical pulse</td>
+                        <td>N/A</td>
+                        <td>Over 2 days</td>
+                        <td>Time-based</td>
+                    </tr>
+                    <tr>
+                        <td>08/04/2016</td>
+                        <td>Doe john</td>
+                        <td>Clinical pulse</td>
+                        <td>N/A</td>
+                        <td>Over 2 days</td>
+                        <td>Time-based</td>
+                    </tr>
+                    <tr>
+                        <td>08/04/2016</td>
+                        <td>Doe john</td>
+                        <td>Clinical pulse</td>
+                        <td>N/A</td>
+                        <td>Over 2 days</td>
+                        <td>Time-based</td>
+                    </tr>
+                    <tr>
+                        <td>08/04/2016</td>
+                        <td>Doe john</td>
+                        <td>Clinical pulse</td>
+                        <td>N/A</td>
+                        <td>Over 2 days</td>
+                        <td>Time-based</td>
+                    </tr>
+                    <tbody>
+
+                    </tbody>
+                    <tfoot>
+
+                    </tfoot>
+                </table>
+
+            </div>
+        </div>
+    </main>
+   
+    
+</body>
+</html>

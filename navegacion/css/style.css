@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.titulo-carro{
+    background-color: #ff6f3c;
+    height: 100px;
+    padding-left: 60px;
+    padding-top: 60px;
+    color: white;
+    
+
+}
+
+.tipo-letra{
+    
+    font-family: 'Sarabun', sans-serif;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 40px;
+
+}
+
+.titulo-principal{
+
+    background-color: #407088;
+    height: 150px;
+    padding-left: 60px;
+    padding-top: 40px;
+    color: white;
+}
+
+nav a{
+text-decoration: none;
+padding-left: 20px;
+color: aqua;
+}
+
+nav a:hover{
+    text-decoration: overline;
+    color: white;
+
+
+}
+.tipo-link{
+    font-family: 'Sarabun', sans-serif;
+    font-size: 16px;
+    
+    
+
+}
+
+img{
+    border-radius: 50px;
+}
+
+.regresar{
+    padding: 10px;
+    background-color: #363b33;
+    width: 60px;
+    height: 40px;
+    margin-bottom: 20px;
+
+
+}
+.regresar a{
+    right: 20px;
+    position: relative;
+   
+}
+
+h1{
+    font-size: 40px;
+    bottom: 20px;
+    position: relative;
+}
+
+.alinear{
+    margin-left: 30px;
+}
+
+ul{
+    margin-left: 30px;
+}
+
+.bronco{
+    margin-left: 20px;
+}
+
+.jeep{
+    margin-left: 20px;
+
+}
+
+.polestar{
+    margin-left: 20px;
+
+}
+
+.honda{
+    margin-left: 20px;
+
+}
+
+input{
+    height: 20px;
+}

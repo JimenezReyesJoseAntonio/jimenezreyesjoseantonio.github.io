@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.izquierdo{
+    width: 20%;
+     height: 913px;
+     background-color: #48A5EA;
+     display: inline-block;
+     display: flex;
+     justify-content: flex-start;
+     align-items: flex-start;
+     display: inline-block;
+
+
+}
+
+
+
+.box{
+    width: 20%px;
+    height: 300px;
+}
+
+.arriba{
+ flex-grow: 1;
+}
+
+.enmedio{
+flex-grow: 3;
+}
+
+.abajo{
+flex-grow: 1;
+}
+
+.derecho{
+    width: 80%;
+    height: 900px;
+    background-color: white;
+    display: inline-block;
+    position: absolute;
+
+}
+
+form{
+    width: 80%;
+    height: 800px;
+
+}
+
+.titulo{
+    position: relative;
+    width: 98%;
+    height: 100px;
+    margin-left: 5px;
+    color: #48A5EA;
+    background-color: white;
+    margin-bottom: 5px;
+    padding: 40px;
+}
+
+.uno{
+    width: 45%;
+    height: 80px;
+    background-color: white;
+    display: inline-block;
+    margin-left: 40px ;
+}
+
+.dos{
+    width: 45%;
+    height: 80px;
+    background-color: white;
+    display: inline-block;
+    margin-left: 40px ;
+
+}
+
+.tres{
+    width: 45%;
+    height: 80px;
+    background-color: white;
+    display: inline-block;
+    margin-left: 40px ;
+    margin-top: 20px;
+}
+
+.cuatro{
+    width: 45%;
+    height: 80px;
+    background-color: white;
+    display: inline-block;
+    margin-left: 40px ;
+    margin-top: 20px;
+
+
+}
+
+.cinco{
+    width: 45%;
+    height: 80px;
+    background-color: white;
+    display: inline-block;
+    margin-left: 40px ;
+    margin-top: 20px;
+
+}
+
+.seis{
+    width: 20%;
+    height: 80px;
+
+    background-color: white;
+    display: inline-block;
+    margin-left: 40px ;
+    position: relative;
+}
+
+.siete{
+    width: 20%;
+    height: 80px;
+    background-color: white;
+    display: inline-block;
+    margin-left: 40px ;
+}
+
+.ocho{
+    width: 45%;
+    height: 70px;
+    background-color: white;
+    display: inline-block;
+    margin-left: 40px ;
+    margin-top: 20px;
+}
+
+.nueve{
+    width: 45%;
+    height: 70px;
+    background-color: white;
+    display: inline-block;
+    margin-left: 40px ;
+    margin-top: 20px;
+    position: absolute;
+
+
+}
+
+label{
+    display: block;
+    font-family: 'Mukta', sans-serif;
+    color: #7e7d7d;
+}
+
+input{
+    margin-top: 30px ;
+    border: none;
+    width: 100%;
+    border-bottom: 3px solid gainsboro;
+    font-family: 'Mukta', sans-serif;
+    outline: none;
+   background-color: white;
+   font-size: 25px;
+}
+
+.pais{
+    border: none;
+    margin-top: 10px;
+    width: 100%;
+    height: 30px;
+    border-bottom: 3px solid gainsboro;
+
+    
+}
+
+.estado{
+    width: 100%;
+    height: 30px;
+
+    border: none;
+    margin-top: 10px;
+    border-bottom: 3px solid gainsboro;
+
+}
+
+.ciudad{
+    height: 30px;
+
+    width: 100%;
+    border: none;
+    margin-top: 10px;
+    border-bottom: 3px solid gainsboro;
+
+}
+
+h1{
+    font-family: 'Mukta', sans-serif;
+
+}
+
+.nueve input{
+    margin-top: 50px;
+}
+
+.borrar{
+    position: relative;
+    bottom: 50px;
+
+    
+	background-color:#EDEDED;
+    border-color:#EDEDED; 
+	border-radius:30px;
+	display:inline-block;
+	cursor:pointer;
+	color:black;
+	font-family:Arial;
+	font-size:12px;
+	padding:12px 37px
+}
+
+.continuar{
+    position: relative;
+    bottom: 50px;
+    left: 90%;
+	background-color:#48A5EA;
+    border-color:#48A5EA; 
+	border-radius:30px;
+	display:inline-block;
+	cursor:pointer;
+	color:white;
+	font-family:Arial;
+	font-size:12px;
+	padding:12px 37px
+}
+
+img{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+
+
+.botones{
+    margin-left: 50px;
+    margin-top: 200px;
+}
+
