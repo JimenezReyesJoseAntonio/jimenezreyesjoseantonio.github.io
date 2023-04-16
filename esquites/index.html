@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Squites</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="contenedor">
+      <img src="corn.ico" alt="elote">
+      <div class="formulario">
+        <h1>Orden de esquite</h1>
+        <form action="pedir">
+        <label for="psw">nombre cliente</label>
+        <input type="nombre cliente" name="psw" role="psw" id="psw" required minlength="8" maxlength="12" placeholder="Ingresa tu nombre">
+        <br>
+        <br>
+        <label for="pin_cli">pin cliente</label>
+        <input type="password" name="pin_cli" role="pin_cli" id="pin_cli" required minlength="4" maxlength="4" pattern="[0-9]{4}" placeholder="Ingresa tu pin">
+        <br>
+        <br>
+        <label for="tama">Tamaño del vaso</label>
+        <input type="number" name="tama" id="tama" min="10" max="15" step="1" required minlength="10" maxlength="15">
+      <br>
+      <br>
+      <label for="tipo">Tipo de chile</label>
+      <select name="tipo" id="" required>
+        <option  value="opcion1">Del que pica</option>
+        <option value="opcion2">Del que no pica</option >
+        <option value selected= "opcion3">De arbol</option>
+        <option value="opcion4">De chapulin</option select>
+    </select>
+    <br>
+    <br>
+    <label for="range">Cantidad de chile </label>
+    <input type="range" min="10" max="15" step="2" name="range" id="range" required minlength="10" maxlength="15">
+    <br>
+    <br>
+    <label for="text">Con limon</label>
+    <input type="radio" name="opciones" id="yes" value="si" >
+    <label for="yes">si</label>
+    <input type="radio" name="opciones" id="negacion" value="no" >
+    <label for="negacion">no</label>
+    <br>
+    <br>
+    <label for="texto">Ingrediente extra</label>
+    </label> <input type="checkbox" name="opciones" id="opcion1" value="opcion" >
+    <label for="opcion1">Buffalo</label>
+    <input type="checkbox" name="opciones" id="opcion2" value="opcion2" >
+    <label for="opcion2"> Valentina</label>
+    <input type="checkbox" name="opciones" id="opcion3" value="opcion3" >
+    <label for="opcion3">Tabasco</label>
+    <br>
+    <label for="texto">Comentario</label>
+    <br>
+    <textarea name="Comnts" id="1" cols="50" rows="5"></textarea required>
+    <br>
+    <input type="submit" value="Pedir">
+    <br>
+    <input type="reset" value="Cancelar orden">
+    <input type="color">
+    <input type="email">
+    <input type="date">
+    <input type="time">
+    <input type="file">
+  </form>
+
+      </div>
+    </div>
+  </body>
+</html>
